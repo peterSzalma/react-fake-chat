@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { FakeChatPage } from './components/pagecomponents/FakeChatPage';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import { FakeChatPage } from './FakeChatPage';
 
 ReactDOM.render(
   <React.StrictMode>
