@@ -54,10 +54,10 @@ export function FakeChatPage() {
         <Slot column={[2, 6]} row={[2, 16]}>
           <ChatDisplayBox messages={messages}></ChatDisplayBox>
         </Slot>
-        <Slot column={[2, 3]} row={[18, 2]}>
+        <Slot column={[2, 3]} row={[18, 2]} color="transparent">
           <MessageInput sendMessage={sendMessageFromMarie}></MessageInput>
         </Slot>
-        <Slot column={[5, 3]} row={[18, 2]}>
+        <Slot column={[5, 3]} row={[18, 2]} color="transparent">
           <MessageInput sendMessage={sendMessageFromJoe}></MessageInput>
         </Slot>
       </Layout>
