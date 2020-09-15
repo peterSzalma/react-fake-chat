@@ -5,7 +5,7 @@ const imageStyles = {
   height: "60px",
   width: "60px",
   borderRadius: "10px",
-  margin: "0 5px"
+  margin: "0 15px"
 };
 
 const chatItem = {

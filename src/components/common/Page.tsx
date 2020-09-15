@@ -8,7 +8,4 @@ export const Page = styled.div`
   bottom: 0;
   left: 0;
   right: 0;
-  @media (max-width: 599px) {
-    margin-top: 56px;
-  }
 `;

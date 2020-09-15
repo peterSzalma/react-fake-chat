@@ -19,6 +19,7 @@ const flexbox = {
 };
 
 export function MessageInput(props: any) {
+  
   const [message, setMessage] = React.useState("");
 
   const onMessageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -28,6 +29,7 @@ export function MessageInput(props: any) {
   const sendMessage = (
     event: React.MouseEvent<HTMLButtonElement, MouseEvent>
   ) => {
+    setMessage("")
     props.sendMessage(message);
   };
 
